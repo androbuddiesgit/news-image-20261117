@@ -1,7 +1,11 @@
+[![make.fun · news-image-20261117](https://make.fun/badge/news-image-20261117.svg)](https://make.fun/bounty/news-image-20261117?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+[![rank](https://make.fun/badge/news-image-20261117/androbuddiesgit/news-image-20261117/rank.svg)](https://make.fun/bounty/news-image-20261117/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+[![reward](https://make.fun/badge/news-image-20261117/androbuddiesgit/news-image-20261117/reward.svg)](https://make.fun/bounty/news-image-20261117?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+
 # The World in One Image — 17 November 2026
 
 Entry for the make.fun bounty
-[`news-image-20261117`](https://make.fun/c/news-image-20261117):
+[`news-image-20261117`](https://make.fun/bounty/news-image-20261117):
 a program that writes one image summing up the world news of
 Tuesday 17 November 2026 to `/output/entry.png`.
 
@@ -40,9 +44,10 @@ cap as PNG.
 python3 main.py
 ```
 
-Copies the bundled `entry.png` to `/output/entry.png`
-(creating `/output` if needed). Standard library only, no network,
-deterministic — every run writes identical bytes.
+Writes the bundled image (embedded in `main.py`) to
+`/output/entry.png` (creating `/output` if needed). Standard
+library only, no network, deterministic — every run writes
+identical bytes.
 
 ## License
 
